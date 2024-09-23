@@ -1,5 +1,7 @@
 #!/bin/bash
 
+console.clear();
+
 log() {
     local level=$1
     local message=$2

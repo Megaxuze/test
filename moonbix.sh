@@ -11,7 +11,7 @@ print_green() {
 curl -s https://data.zamzasalim.xyz/file/uploads/asclogo.sh | bash
 sleep 5
 
-echo "MoonBix Bot"
+echo "MOONBIX BOT INSTALL"
 sleep 2
 
 echo "cd /root/moonbix && python3 main.py" > /usr/bin/moonbix
@@ -31,3 +31,4 @@ python3 -m pip install -r requirements.txt
 [[ -f /root/moonbix.sh ]] && rm /root/moonbix.sh
 [[ -f requirements.txt ]] && rm requirements.txt
 
+cd /root/moonbix-bot

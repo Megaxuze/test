@@ -23,9 +23,9 @@ apt install python3-pip python3 nano git screen -y
 apt-get install screen
 
 cd /root
-git clone https://github.com/zamzasalim/ERROR.git
+git clone https://github.com/zamzasalim/moonbix-bot.git
 
-cd /root/moonbix
+cd /root/moonbix-bot
 pip install -r requirements.txt --break-system-packages
 
 [[ -f /root/moonbix.sh ]] && rm /root/moonbix.sh

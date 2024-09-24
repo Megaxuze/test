@@ -26,7 +26,10 @@ cd /root
 git clone https://github.com/zamzasalim/moonbix-bot.git
 
 cd /root/moonbix-bot
-pip install -r requirements.txt --break-system-packages
+pip install colorama
+npm install colorama
+pip install requests
+pip install requests requests[socks] colorama
 
 [[ -f /root/moonbix.sh ]] && rm /root/moonbix.sh
 [[ -f requirements.txt ]] && rm requirements.txt

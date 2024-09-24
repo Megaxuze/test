@@ -26,7 +26,7 @@ cd /root
 git clone https://github.com/zamzasalim/moonbix-bot.git
 
 cd /root/moonbix-bot
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt --break-system-packages
 
 [[ -f /root/moonbix.sh ]] && rm /root/moonbix.sh
 [[ -f requirements.txt ]] && rm requirements.txt

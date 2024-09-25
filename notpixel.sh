@@ -35,3 +35,4 @@ pip install crayons==0.4.0
 [[ -f requirements.txt ]] && rm requirements.txt
 
 cd /root/notpixel
+cd notpixel

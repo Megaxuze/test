@@ -14,11 +14,14 @@ pkg install nodejs
 
 sleep 5
 
-git clone https://github.com/zamzasalim/moonbix-bot.git
+git clone https://github.com/zamzasalim/notpixel.git
 
-cd moonbix-bot
+cd notpixel
 
-pip install -r requirements.txt --break-system-packages
+pip install pillow
+pip install setproctitle
+pip install equests
+pip install crayons
 
 echo -e "\033[0;35m"
 echo "Done...."

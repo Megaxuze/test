@@ -25,13 +25,13 @@ apt-get install screen
 cd /root
 git clone https://github.com/zamzasalim/notpixel.git
 
-cd /root/moonbix-bot
+cd /root/notpixel
 pip install pillow==10.4.0
 pip install setproctitle==1.3.3
 pip install requests==2.31.0
 pip install crayons==0.4.0
 
-[[ -f /root/moonbix.sh ]] && rm /root/moonbix.sh
+[[ -f /root/notpixel.sh ]] && rm /root/notpixel.sh
 [[ -f requirements.txt ]] && rm requirements.txt
 
 cd /root/notpixel

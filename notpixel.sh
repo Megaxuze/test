@@ -11,11 +11,11 @@ print_green() {
 curl -s https://data.zamzasalim.xyz/file/uploads/asclogo.sh | bash
 sleep 5
 
-echo "MOONBIX BOT INSTALL"
+echo "NOTPIXEL BOT INSTALL"
 sleep 2
 
-echo "cd /root/moonbix && python3 main.py" > /usr/bin/moonbix
-chmod +x /usr/bin/moonbix
+echo "cd /root/notpixel && python3 main.py" > /usr/bin/notpixel
+chmod +x /usr/bin/notpixel
 
 apt update
 apt install python3-pip python3 nano git screen -y
@@ -23,15 +23,15 @@ apt install python3-pip python3 nano git screen -y
 apt-get install screen
 
 cd /root
-git clone https://github.com/zamzasalim/moonbix-bot.git
+git clone https://github.com/zamzasalim/notpixel.git
 
 cd /root/moonbix-bot
-pip install colorama
-npm install colorama
-pip install requests
-pip install requests requests[socks] colorama
+pip install pillow==10.4.0
+pip install setproctitle==1.3.3
+pip install requests==2.31.0
+pip install crayons==0.4.0
 
 [[ -f /root/moonbix.sh ]] && rm /root/moonbix.sh
 [[ -f requirements.txt ]] && rm requirements.txt
 
-cd /root/moonbix-bot
+cd /root/notpixel

@@ -24,6 +24,7 @@ apt-get install screen
 
 cd /root
 git clone https://github.com/zamzasalim/notpixel.git
+cd /root/notpixel
 
 cd /root/notpixel
 pip install pillow==10.4.0

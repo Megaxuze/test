@@ -14,22 +14,24 @@ sleep 5
 echo "NOTPIXEL BOT INSTALL"
 sleep 2
 
-echo "cd /root/notpixel && python3 main.py" > /usr/bin/notpixel
+echo "cd notpixel && python3 main.py" > /usr/bin/notpixel
 chmod +x /usr/bin/notpixel
 
-apt update
-apt install python3-pip python3 nano git screen -y
+pkg upgrade
+pkg install python3-pip python3 nano git screen -y
 
 apt-get install screen
 
-cd /root
+cd 
 git clone https://github.com/zamzasalim/notpixel.git
-cd /root/notpixel
+cd notpixel
 
-cd /root/notpixel
-pip install pillow==10.4.0
-pip install setproctitle==1.3.3
-pip install requests==2.31.0
-pip install crayons==0.4.0
+pkg install libjpeg-turbo libpng libtiff littlecms libwebp freetype zlib
 
-cd /root/notpixel
+cd notpixel
+pip install pillow
+pip install setproctitle
+pip install requests
+pip install crayons
+
+cd notpixel

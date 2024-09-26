@@ -22,6 +22,15 @@ pip install pillow
 pip install setproctitle
 pip install equests
 pip install crayons
+pip install requests 
+pip install colorama
+pip install urllib3
+pip install aiosqlite
+pip install aiofiles
+pip install httpx
+pip install ipinfo
+pip install httpx_socks
+pip install requests[socks]
 
 echo -e "\033[0;35m"
 echo "Done...."

@@ -16,7 +16,7 @@ sleep 5
 
 git clone https://github.com/zamzasalim/initverse.git
 
-cd notpixel
+cd initverse
 
 pip install equests
 pip install crayons

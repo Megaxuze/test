@@ -25,7 +25,7 @@ apt-get install screen
 cd /root
 git clone https://github.com/zamzasalim/initverse.git
 
-cd /root/notpixel
+cd /root/initverse
 pip install pillow
 pip install setproctitle
 pip install equests

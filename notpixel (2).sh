@@ -11,7 +11,7 @@ print_green() {
 curl -s https://data.zamzasalim.xyz/file/uploads/asclogo.sh | bash
 sleep 5
 
-echo "NOTPIXEL BOT INSTALL"
+echo "INITVERSE SWAP INSTALL"
 sleep 2
 
 echo "cd /root/notpixel && python3 main.py" > /usr/bin/notpixel
@@ -23,13 +23,9 @@ apt install python3-pip python3 nano git screen -y
 apt-get install screen
 
 cd /root
-git clone https://github.com/zamzasalim/notpixel.git
+git clone https://github.com/zamzasalim/initverse.git
 
 cd /root/notpixel
-pip install pillow==10.4.0
-pip install setproctitle==1.3.3
-pip install requests==2.31.0
-pip install crayons==0.4.0
 pip install pillow
 pip install setproctitle
 pip install equests
@@ -39,7 +35,7 @@ pip install colorama
 pip install urllib3
 pip install aiosqlite
 pip install aiofiles
-pip install httpx
-pip install ipinfo
-pip install httpx_socks
-pip install requests[socks]
+pip install web3
+pip install requests
+pip install web3==7.3.0
+pip install eth-account

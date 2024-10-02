@@ -14,12 +14,10 @@ pkg install nodejs
 
 sleep 5
 
-git clone https://github.com/zamzasalim/notpixel.git
+git clone https://github.com/zamzasalim/initverse.git
 
 cd notpixel
 
-pip install pillow
-pip install setproctitle
 pip install equests
 pip install crayons
 pip install requests 
@@ -27,10 +25,10 @@ pip install colorama
 pip install urllib3
 pip install aiosqlite
 pip install aiofiles
-pip install httpx
-pip install ipinfo
-pip install httpx_socks
-pip install requests[socks]
+pip install web3
+pip install requests
+pip install web3==7.3.0
+pip install eth-account
 
 echo -e "\033[0;35m"
 echo "Done...."

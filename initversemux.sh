@@ -29,6 +29,9 @@ pip install web3
 pip install requests
 pip install web3==7.3.0
 pip install eth-account
+pkg install libffi
+pkg install openssl
+pkg install clang
 
 echo -e "\033[0;35m"
 echo "Done...."

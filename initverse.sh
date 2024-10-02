@@ -14,8 +14,8 @@ sleep 5
 echo "INITVERSE SWAP INSTALL"
 sleep 2
 
-echo "cd /root/notpixel && python3 main.py" > /usr/bin/notpixel
-chmod +x /usr/bin/notpixel
+echo "cd /root/initverse && python3 main.py" > /usr/bin/initverse
+chmod +x /usr/bin/initverse
 
 apt update
 apt install python3-pip python3 nano git screen -y
